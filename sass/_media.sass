@@ -1,0 +1,145 @@
+@import "vars"
+
+@media (max-width: 1199.98px)
+	.owl-carousel .owl-nav button.owl-prev
+		left: -23px;
+	.owl-carousel .owl-nav button.owl-next
+		right: -23px
+
+@media (max-width: 991.98px)
+	.owl-carousel .owl-nav button.owl-prev
+		left: -5px;
+	.owl-carousel .owl-nav button.owl-next
+		right: -5px
+	.hamb
+		display: block
+	header
+		.menu
+			right: -10px
+			display: none
+			width: 300px
+			height: 100vh
+			position: absolute
+			top: 60px
+			padding-top: 20px
+			background-color:  transparentize(#fff, .6)
+			.item
+				width: 100%
+				display: block
+				text-align: center
+				padding: 20px 0
+	.hamb 
+		display: block
+		height: 40px
+		width: 40px
+		border-radius: 10rem
+		background-color: #FFFFFF
+		position: relative
+		text-align: center;
+		a
+			display: block;
+			height: 40px;
+			width: 20px;
+			text-align: center;
+			margin: auto;
+
+	.hamb span:after,
+	.hamb span:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 9px
+
+	.hamb span:after
+		top: 18px
+
+	.hamb span 
+		position: relative
+		display: block
+		top: 9px
+
+	.hamb span,
+	.hamb span:after,
+	.hamb span:before
+		width: 100%
+		height: 2px
+		background-color: $sun
+		transition: all 0.3s
+		backface-visibility: hidden
+		border-radius: 2px
+
+@media (max-width: 575.98px)
+	.title
+		margin-top: 206px
+		h1
+			font-size: 50px
+			&::after
+				top: -147%
+	h2
+		font-size: 40px
+	.arrow-wrap
+		margin-top: 107px
+	.section_first_screen
+		min-height: 568px
+	.enter_button
+		display: none
+	.section_2, .section_3
+		padding-top: 61px
+	.section_2
+		min-height: 755px
+	.under-title
+		margin-top: 19px
+	.owl-carousel
+		margin-top: 30px
+	.section_3
+		.looks-wrap
+			display: inline-block
+			padding-top: 40px
+			padding-left: 29px
+			height: 324px
+			width: 270px
+			background-size: 68%
+			background-position: 171px 0px
+			margin-bottom: 30px
+			.under-title
+				height: 91px
+				width: 230px
+				font-size: 16px
+				line-height: 24px
+	.section_3
+		padding-bottom: 20px
+		.look
+			height: 476px
+			width: 270px
+			margin-bottom: 30px
+	.section_3 .any_news
+		width: 270px
+		height: 176px
+		padding: 26px 24px
+	.section_3
+		.any_news_sun
+			height: 228px
+	.section_3 .any_news .under-title, .section_3 .look .under-title
+		font-size: 16px
+		line-height: 24px
+	.section_3 .any_news_sun .under-title
+		font-size: 20px
+	.owl-carousel .owl-nav button.owl-prev
+		left: 0
+	.owl-carousel .owl-nav button.owl-next
+		right: 0
+	.btn-cart
+		width: 190px
+	.section_4 .input-group
+		width: 270px
+	.section_4 .form-control
+		width: 201px
+	.section_4 .input-group>.input-group-append>.btn
+		width: 69px
+	.section_3 .any_news .img-wr .like, .section_3 .look .img-wr .like
+		right: 49px
+	header .menu
+		right: 0
+		background-color: rgba(255,255,255,.8);
+	nav ul li a
+		color: $sun
